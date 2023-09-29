@@ -10,7 +10,7 @@ idna==3.4
 lxml==4.9.3
 packaging==23.1
 requests==2.31.0
-soupsieve==2.5
+soupsieve==2.4.1
 SQLAlchemy==2.0.21
 sqlparse==0.4.4
 typing_extensions==4.8.0
