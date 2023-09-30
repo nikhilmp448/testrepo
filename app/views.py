@@ -43,4 +43,4 @@ def get_images():
 def home(request):
     images = get_images()
     context = {'images':images}
-    return render(request,'ads.html',context)
+    return render(request,'index.html',context)
