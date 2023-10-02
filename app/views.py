@@ -70,9 +70,9 @@ def home(request):
     popular = get_popular()
     # trending = get_trending_movies()
     now_streaming = now_showing_movies()
-    print(now_streaming)
+
     trending_movie_poster = get_trending_movie_posters()
-    print(trending_movie_poster)
+
 
     context = {'popular':popular,
                'trending':trending_movie_poster
